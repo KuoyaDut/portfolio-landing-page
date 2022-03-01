@@ -1,0 +1,39 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: navy(to bottom right);
+  font-family:"sans serif";
+}
+main{
+  padding: 5%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header{
+  height:25vh;
+  display:flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+.portfolio{
+  display:flex;
+  color:white;
+  height:20vh;
+}
+.portfolio.links{
+  display:flex;
+  height:18vh;
+}
+.Aboutme{
+  color:red;
+  height:15vh;
+  align-items:left;
+}
